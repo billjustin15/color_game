@@ -1,0 +1,25 @@
+.box {
+  background-color: #ccc;
+  border: 1px solid #444;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.box.animate {
+  background-color: #ccc;
+  border: 1px solid #444;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  animation: randomColors 2s;
+}
+
+@keyframes randomColors {
+  0%   {background-color: red;}
+  20%  {background-color: blue;}
+  40%  {background-color: yellow;}
+  60%  {background-color: green;}
+  80%  {background-color: orange;}
+  100% {background-color: pink;}
+}
